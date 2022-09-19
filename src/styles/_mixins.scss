@@ -11,14 +11,6 @@
   @include smallDesktop {
     margin-bottom: 168px;
   }
-
-  &--footer {
-    margin-bottom: 50px;
-
-    @include tablet {
-      margin-bottom: 25px;
-    }
-  }
 }
 
 @mixin tablet {

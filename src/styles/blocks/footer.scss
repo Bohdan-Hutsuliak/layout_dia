@@ -79,6 +79,10 @@
   &__top {
     @include top-actions;
 
+    @include tablet {
+      margin-bottom: 25px;
+    }
+
     @include smallDesktop {
       margin-bottom: 0;
     }
